@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+Chinese Vocabulary & Grammar Learning
+</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>
+Chinese Vocabulary & Grammar Learning
+</h1>
+
+<p>
+เรียนรู้คำศัพท์และไวยากรณ์ภาษาจีน
+</p>
+
+</header>
+
+<nav>
+
+<button onclick="showPage('home')">
+หน้าแรก
+</button>
+
+<button onclick="showPage('vocabulary')">
+คำศัพท์
+</button>
+
+<button onclick="showPage('grammar')">
+ไวยากรณ์
+</button>
+
+<button onclick="showPage('quiz')">
+แบบทดสอบ
+</button>
+
+</nav>
+
+<main>
+
+<section id="home">
+
+<h2>
+ยินดีต้อนรับ
+</h2>
+
+<p>
+เว็บไซต์สำหรับเรียนรู้ภาษาจีน
+สำหรับนักศึกษาภาษาจีนธุรกิจ
+</p>
+
+</section>
+
+<section id="vocabulary">
+
+<h2>
+📚 คำศัพท์
+</h2>
+
+<input
+id="search"
+placeholder="ค้นหาคำศัพท์..."
+>
+
+<div id="wordList"></div>
+
+</section>
+
+<section id="grammar">
+
+<h2>
+📝 ไวยากรณ์
+</h2>
+
+<div id="grammarList"></div>
+
+</section>
+
+<section id="quiz">
+
+<h2>
+🎯 แบบทดสอบ
+</h2>
+
+<div id="quizArea"></div>
+
+</section>
+
+</main>
+
+<script src="vocabulary.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
